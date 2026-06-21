@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-bot-termux",
+  "version": "1.3.0",
+  "description": "Feature-rich WhatsApp pairing bot for Termux (Baileys)",
+  "main": "baileys_bot.js",
+  "scripts": {
+    "mock": "node pair_mock.js",
+    "baileys": "node baileys_bot.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "google-tts-api": "^2.0.1",
+    "jimp": "^0.16.1"
+  }
+}
